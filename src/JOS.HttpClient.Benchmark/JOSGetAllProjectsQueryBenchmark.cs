@@ -20,7 +20,7 @@ using GetAllProjectsQuery = JOSHttpClient.Version0.GetAllProjectsQuery;
 namespace JOS.HttpClient.Benchmark
 {
     [MemoryDiagnoser]
-    [SimpleJob(RuntimeMoniker.NetCoreApp31, invocationCount: 50)]
+    [SimpleJob(RuntimeMoniker.NetCoreApp30, invocationCount: 50)]
     public class JOSGetAllProjectsQueryBenchmark
     {
         private IServiceProvider _serviceProvider;
